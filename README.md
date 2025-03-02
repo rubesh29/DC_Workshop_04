@@ -1,5 +1,5 @@
-#Simple Onion Routing Network TD-4
-Simple Onion Routing Network
+# Simple Onion Routing Network
+
 ## Overview
 This project implements a simple onion routing network where messages are securely transmitted through multiple nodes before reaching the final destination. The system ensures privacy by encrypting messages at each hop.
 
@@ -76,3 +76,4 @@ npm run test
 
 ## License
 This project is licensed under the MIT License.
+
