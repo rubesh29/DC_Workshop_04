@@ -4,7 +4,7 @@ import { webcrypto } from "crypto";
 // ### Utils ###
 // #############
 
-// Function to convert ArrayBuffer to Base64 string
+// Function to transform an ArrayBuffer into a Base64-encoded string.
 function arrayBufferToBase64(buffer: ArrayBuffer): string {
   return Buffer.from(buffer).toString("base64");
 }
